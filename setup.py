@@ -16,7 +16,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/polm/cutlet",
     packages=setuptools.find_packages(),
-    install_requires=["jaconv", "fugashi", "mojimoji"],
+    install_requires=["fugashi", "habachen"],
     setup_requires=["setuptools-scm"],
     tests_require=["pytest", "hypothesis"],
     classifiers=[
